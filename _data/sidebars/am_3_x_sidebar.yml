@@ -85,18 +85,6 @@ entries:
           output: web
           url: /am/current/am_userguide_identity_provider_mapping.html
           subfolders:
-          - title: Enteprise Identity Providers
-            output: web
-            subfolderitems:
-            - title: Overview
-              output: web
-              url: /am/current/am_userguide_enterprise_identity_providers.html
-            - title: Active Directory / LDAP
-              output: web
-              url: /am/current/am_userguide_enterprise_identity_provider_ldap.html
-            - title: HTTP (web service)
-              output: web
-              url: /am/current/am_userguide_enterprise_identity_provider_http.html
           - title: Social Identity Providers
             output: web
             subfolderitems:
