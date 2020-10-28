@@ -57,7 +57,8 @@ Your repository is ready to use, now it's time to install Gravitee.io API Manage
 
 You can choose to install the complete Gravitee.io API Management stack or install components one by one:
 
-* link:/apim/3.x/apim_installguide_redhat_stack.html[Install API Management] (includes all components below)
-* link:/apim/3.x/apim_installguide_redhat_gateway.html[Install API Gateway]
-* link:/apim/3.x/apim_installguide_redhat_management_api.html[Install Management API]
-* link:/apim/3.x/apim_installguide_redhat_portal.html[Install Portal]
+* link:/apim/3.x/apim_installguide_redhat_stack.html[Install the full APIM stack] (includes all components below)
+* link:/apim/3.x/apim_installguide_redhat_gateway.html[Install APIM Gateway]
+* link:/apim/3.x/apim_installguide_redhat_management_api.html[Install APIM API]
+* link:/apim/3.x/apim_installguide_redhat_management_ui.html[Install APIM Console]
+* link:/apim/3.x/apim_installguide_redhat_portal.html[Install APIM Portal]

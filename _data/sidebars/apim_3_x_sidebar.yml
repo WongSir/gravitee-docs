@@ -37,7 +37,7 @@ entries:
               - title: Publish your first API
                 output: web
                 subfolderitems:
-                  - title: Using APIM Management
+                  - title: Using APIM Console
                     output: web
                     url: /apim/3.x/apim_quickstart_publish_ui.html
                   - title: Using APIM API
@@ -75,7 +75,7 @@ entries:
                   - title: Install APIM API
                     output: web
                     url: /apim/3.x/apim_installguide_rest_apis_install_zip.html
-                  - title: Install APIM Management
+                  - title: Install APIM Console
                     output: web
                     url: /apim/3.x/apim_installguide_management_ui_install_zip.html
                   - title: Install APIM Portal
@@ -96,7 +96,7 @@ entries:
                   - title: Install APIM API
                     output: web
                     url: /apim/3.x/apim_installguide_redhat_management_api.html
-                  - title: Install APIM Management
+                  - title: Install APIM Console
                     output: web
                     url: /apim/3.x/apim_installguide_redhat_management_ui.html
                   - title: Install APIM Portal
@@ -117,7 +117,7 @@ entries:
                   - title: Install APIM API
                     output: web
                     url: /apim/3.x/apim_installguide_amazon_management_api.html
-                  - title: Install APIM Management
+                  - title: Install APIM Console
                     output: web
                     url: /apim/3.x/apim_installguide_amazon_management_ui.html
                   - title: Install APIM Portal
@@ -182,7 +182,7 @@ entries:
                - title: Security
                  output: web
                  url: /apim/3.x/apim_installguide_rest_apis_security.html
-            - title: Configure APIM Management
+            - title: Configure APIM Console
               output: web
               subfolderitems:
                - title: General configuration

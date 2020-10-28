@@ -12,7 +12,7 @@ entries:
       output: web
       url: /am/current/am_overview_introduction.html
       type: homepage
-    - title: Why Gravitee.io ?
+    - title: Why Gravitee.io Access Management?
       output: web
       url: /am/current/am_overview_why.html
     - title: Architecture
@@ -28,7 +28,7 @@ entries:
       output: web
       url: /am/current/am_overview_plugins.html
 
-  - title: QuickStart
+  - title: Quick Start Guide
     output: web
     folderitems:
     - title: Register a new application
@@ -85,6 +85,18 @@ entries:
           output: web
           url: /am/current/am_userguide_identity_provider_mapping.html
           subfolders:
+          - title: Enteprise Identity Providers
+            output: web
+            subfolderitems:
+            - title: Overview
+              output: web
+              url: /am/current/am_userguide_enterprise_identity_providers.html
+            - title: Active Directory / LDAP
+              output: web
+              url: /am/current/am_userguide_enterprise_identity_provider_ldap.html
+            - title: HTTP (web service)
+              output: web
+              url: /am/current/am_userguide_enterprise_identity_provider_http.html
           - title: Social Identity Providers
             output: web
             subfolderitems:
@@ -148,7 +160,7 @@ entries:
         - title: Custom login page
           output: web
           url: /am/current/am_userguide_custom_login_page.html
-      - title: Multi-factor Authentication
+      - title: Multi-factor authentication
         output: web
         subfolderitems:
         - title: Overview
@@ -253,7 +265,7 @@ entries:
     - title: Introduction
       output: web
       url: /am/current/am_installguide_introduction.html
-    - title: Quickstart
+    - title: Quick installation
       output: web
       url: /am/current/am_installguide_quickstart.html
 
@@ -318,51 +330,55 @@ entries:
     - title: Kubernetes
       output: web
       url: /am/current/am_installguide_kubernetes.html
-
+    - title: Migration guide
+      output: web
+      url: /am/current/am_installguide_migration.html
+  - title: Configuration Guide
+    output: web
+    folderitems:
+    - title: Introduction
+      output: web
+      url: /am/current/am_configurationguide.html
       subfolders:
-        - title: Auth Gateway
+      - title: Configure AM Gateway
+        output: web
+        subfolderitems:
+        - title: General configuration
+          output: web
+          url: /am/current/am_installguide_gateway_configuration.html
+        - title: Internal API
+          output: web
+          url: /am/current/am_installguide_gateway_technical_api.html
+        - title: Metrics
+          output: web
+          url: /am/current/am_installguide_gateway_metrics.html
+        - title: Configure AM API
           output: web
           subfolderitems:
-            - title: Configuration
-              output: web
-              url: /am/current/am_installguide_gateway_configuration.html
-            - title: Technical API
-              output: web
-              url: /am/current/am_installguide_gateway_technical_api.html
-            - title: Metrics
-              output: web
-              url: /am/current/am_installguide_gateway_metrics.html
-        - title: Management API
-          output: web
-          subfolderitems:
-            - title: Configuration
-              output: web
-              url: /am/current/am_installguide_management_api_configuration.html
-            - title: Technical API
-              output: web
-              url: /am/current/am_installguide_management_api_technical_api.html
-            - title: Metrics
-              output: web
-              url: /am/current/am_installguide_management_api_metrics.html
-        - title: Portal
-          output: web
-          subfolderitems:
-            - title: Configuration
+           - title: General configuration
+             output: web
+             url: /am/current/am_installguide_management_api_configuration.html
+           - title: Internal API
+             output: web
+             url: /am/current/am_installguide_management_api_technical_api.html
+           - title: Metrics
+             output: web
+             url: /am/current/am_installguide_management_api_metrics.html
+         - title: Configure AM Portal
+           output: web
+           subfolderitems:
+            - title: General configuration
               output: web
               url: /am/current/am_installguide_management_ui_configuration.html
-        - title: Repositories
-          output: web
-          subfolderitems:
+         - title: Configure repositories
+           output: web
+           subfolderitems:
             - title: Overview
               output: web
               url: /am/current/am_installguide_repositories.html
             - title: MongoDB
               output: web
               url: /am/current/am_installguide_repositories_mongodb.html
-    - title: Migration guide
-      output: web
-      url: /am/current/am_installguide_migration.html
-
   - title: Breaking changes
     output: web
     folderitems:

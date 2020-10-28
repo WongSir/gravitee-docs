@@ -1,4 +1,4 @@
-= Publish your first API with Management UI
+= Publish your first API with APIM Console
 :page-sidebar: apim_3_x_sidebar
 :page-permalink: apim/3.x/apim_quickstart_publish_ui.html
 :page-folder: apim/quickstart/api-publisher
@@ -7,8 +7,9 @@
 This guide walks you through the process of creating and publishing your first API by using the Management UI.
 Gravitee.io Management UI can be accessed using the following URL:
 
-http://MANAGEMENT_UI_SERVER_DOMAIN (see link:/apim/3.x/apim_installguide_management_ui_install_zip.html[Gravitee.io Management UI installation] for more information)
+This section walks you through creating and publishing your first API with APIM Console. You can find more information in the link:/apim/3.x/apim_publisherguide_manage_apis.html[API Publisher Guide].
 
+== Create your API with APIM Console
 
 NOTE: *Gravitee.io Echo API* : In this tutorial we will use the https://api.gravitee.io/echo[Gravitee.io Echo API] to set up our first proxy API.
 The Gravitee.io Echo API returns JSON-formatted data via the following URL : https://api.gravitee.io/echo

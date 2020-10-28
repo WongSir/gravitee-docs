@@ -67,7 +67,10 @@ For a higher level of security, see OAuth 2.0 and JWT plans.
 
 === OAuth 2.0 plans
 
-== OAuth 2.0 plan
+https://tools.ietf.org/html/rfc6749[OAuth 2.0] is a delegation protocol for authorization decisions across applications and APIs.
+It defines standards endpoints and flows to both obtain and verify access tokens. For more information OAuth 2.0, see https://oauth.net/2/[oauth.net].
+
+==== Use a custom API key
 
 You can specify a custom API key for an API key plan. This is particularly useful when you want to silently migrate to APIM and have a pre-defined API key.
 
@@ -90,11 +93,6 @@ image::apim/3.x/api-publisher-guide/plans-subscriptions/custom-api-key-2.png[Gra
 * renewing a subscription:
 
 image::apim/3.x/api-publisher-guide/plans-subscriptions/custom-api-key-3.png[Gravitee.io - Renew custom API key, 873, 530, align=center, title-align=center]
-
-== OAuth 2.0 plan
-
-https://tools.ietf.org/html/rfc6749[OAuth 2.0] is a delegation protocol for authorization decisions across applications and APIs.
-It defines standards endpoints and flows to both obtain and verify access tokens. For more information OAuth 2.0, see https://oauth.net/2/[oauth.net].
 
 ==== Create and specify an OAuth 2.0 authorization server
 

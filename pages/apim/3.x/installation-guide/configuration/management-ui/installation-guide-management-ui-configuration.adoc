@@ -1,5 +1,5 @@
 [[gravitee-installation-management-ui-configuration]]
-= Management UI configuration
+= Configure APIM Console
 :page-sidebar: apim_3_x_sidebar
 :page-permalink: apim/3.x/apim_installguide_management_ui_configuration.html
 :page-folder: apim/installation-guide/management-ui
@@ -7,8 +7,8 @@
 :page-keywords: Gravitee.io, API Platform, API Management, API Gateway, oauth2, openid, documentation, manual, guide, reference, api
 :page-layout: apim3x
 
-== Configuration
-There are 2 ways to configure your web UI :
+== Overview
+There are 2 ways to configure APIM Console:
 
  - with a file named `constants.json`
  - with the values stored in the management repository
@@ -26,7 +26,7 @@ The only mandatory values in the `constants.json` file is`:
 }
 ----
 
-It describes where the management API is, to be able to request it.
+It describes where the APIM API Management endpoint is, and must be set so APIM Console can send requests to it.
 
 == Default configuration
 
@@ -37,7 +37,7 @@ include::https://raw.githubusercontent.com/gravitee-io/gravitee-management-webui
 
 == Endpoint
 
-To retrieve the management UI configuration stored in repository:
+The following endpoint retrieves the APIM Console configuration stored in the Management repository:
 `GET /management/organizations/DEFAULT/environments/DEFAULT/portal`
 
 To update this configuration : `POST /management/organizations/DEFAULT/environments/DEFAULT/portal`
@@ -130,7 +130,7 @@ For that, edit constants.json and change the value of :
 
 [NOTE]
 ====
-These parameters can be modified in the APIM Console Settings > Management > Theme
+These parameters can be modified in APIM Console with *Settings > Management > Theme*.
 
 image::apim/3.x/installation/management-ui/graviteeio-installation-management-ui-settings.png[]
 

@@ -64,9 +64,8 @@ jetty:
 WARNING: Truststore and keystore defined within `jetty` section are only used to secure access to the Management API. These are not
 used by any HTTP client calls for other purposes (Fetch, DCR, ...)
 
-== Management & Portal APIs
-This block allow to select which API should be started. By default, both Management and Portal are started. +
-You can also configure the endpoint of each API. By default `/management` and `/portal`.
+=== Configure the Management and Portal APIs
+You can configure APIM API to start only the Management or Portal API. You can also change the API endpoints from their default values of `/management` and `/portal`.
 
 [source,yaml]
 ----
@@ -274,7 +273,7 @@ Here's an example of template:
 
 ----
 
-== User options
+=== Configure user options
 
 You can configure various user options:
 
@@ -283,9 +282,9 @@ user.creation.token.expire-after:: number (default: 86400) -- number of seconds 
 user.reference.secret:: 32 characters (default: s3cR3t4grAv1t33.1Ous3D4R3f3r3nc3) -- secret used to generate a unique anonymous reference to a user; *You must change this value*
 user.anonymize-on-delete:enabled:: boolean (default: false) - If true, the user *firstname*, *lastname* and *email* are anonymized when a user is deleted
 
-== Default configuration
+=== Default configuration
 
-Various properties can be specified inside your `GRAVITEE_HOME/config/gravitee.yml` file. This section provides the general configuration of Gravitee.IO Management API.
+You can configure various default properties of APIM API in your `gravitee.yml` file.
 
 [source,yaml]
 ----
