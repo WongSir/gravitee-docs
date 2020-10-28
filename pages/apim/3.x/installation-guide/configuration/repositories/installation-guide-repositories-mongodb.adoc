@@ -92,10 +92,10 @@ The following table summarizes how to define these fine-grained constraints per 
 |===
 |Component|Read-only |Read-write
 
-|API Gateway
+|APIM Gateway
 |apis - keys - subscriptions - plans | events - ratelimit - commands
 
-|Management API
+|APIM API
 |- | all collections except ratelimit
 
 |===

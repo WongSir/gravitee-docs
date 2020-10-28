@@ -17,7 +17,7 @@ If you want to install APIM components individually, see the following sections:
 
 * link:/apim/3.x/apim_installguide_amazon_gateway.html[Install APIM Gateway]
 * link:/apim/3.x/apim_installguide_amazon_management_api.html[Install APIM API]
-* link:/apim/3.x/apim_installguide_amazon_management_ui.html[Install APIM Management]
+* link:/apim/3.x/apim_installguide_amazon_management_ui.html[Install APIM Console]
 * link:/apim/3.x/apim_installguide_amazon_portal.html[Install APIM Portal]
 
 == Prerequisites
@@ -90,7 +90,7 @@ sudo systemctl start elasticsearch
 
 [source,bash,subs="attributes"]
 ----
-sudo yum install {gravitee-package-name}-with-dependencies
+curl -L https://bit.ly/install-apim-3x | bash
 ----
 
 == Run APIM with `systemd`

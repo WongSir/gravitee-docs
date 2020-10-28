@@ -36,7 +36,7 @@ WARNING: The `Authorization callback URL` must exactly match the domain which is
 .Retrieve Oauth2 credentials
 image::apim/3.x/installation/authentication/github_oauth_credentials.png[Get Oauth2 credentials]
 
-== Configure Gravitee.io
+== Configure APIM
 
 include::../partial/management-api-configuration-idp-override.adoc[leveloffset=+2]
 

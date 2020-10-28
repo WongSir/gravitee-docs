@@ -1,4 +1,4 @@
-= Install APIM Management
+= Install APIM Console
 :page-sidebar: apim_3_x_sidebar
 :page-permalink: apim/3.x/apim_installguide_management_ui_install_zip.html
 :page-folder: apim/installation-guide/with-zip
@@ -9,13 +9,13 @@
 
 == Prerequisites
 
-Your environment must meet the requirements listed below before you install APIM Management.
+Your environment must meet the requirements listed below before you install APIM Console.
 
 NOTE: Before you begin, ensure APIM API is installed and running.
 
 === Browsers
 
-APIM Management has been tested with the latest versions of Google Chrome and Firefox and with Internet Explorer from version 10.
+APIM Console has been tested with the latest versions of Google Chrome and Firefox and with Internet Explorer from version 10.
 
 == Download and extract the `.zip` archive
 
@@ -31,10 +31,10 @@ Once you have downloaded the archive, extract the `graviteeio-management-ui-xxx`
 [subs="attributes"]
 $ unzip gravitee-standalone-distribution-{{ site.products.apim._3x.version }}.zip
 
-== Deploy or run APIM Management
+== Deploy or run APIM Console
 
 === Deploy
-APIM Management is a client-side only AngularJS application and can be deployed on any HTTP server, such as https://httpd.apache.org/[Apache] or http://nginx.org/[Nginx].
+APIM Console is a client-side only AngularJS application and can be deployed on any HTTP server, such as https://httpd.apache.org/[Apache] or http://nginx.org/[Nginx].
 
 === Run with Python
 

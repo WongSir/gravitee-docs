@@ -28,13 +28,13 @@ All exposed services are restricted by authentication and authorization rules.
 You can find more information in the link:/apim/3.x/apim_installguide_rest_apis_documentation.html[Rest APIs > Documentation] section.
 
 [[gravitee-components-mgmt-ui]]
-== APIM Management
-This web UI gives easy access to some key <<gravitee-components-rest-api, APIM API>>.
+== APIM Console
+This web UI gives easy access to some key <<gravitee-components-rest-api, APIM API>> services.
 <<apim_overview_concepts.adoc#gravitee-concepts-publisher, API Publishers>> can use it to publish APIs.
 Administrators can also configure global platform settings and specific portal settings.
 
 [[gravitee-components-portal-ui]]
 == APIM Portal
-This web UI gives easy access to some key <<gravitee-components-rest-api, APIM API>>.
+This web UI gives easy access to some key <<gravitee-components-rest-api, APIM API>> services.
 <<apim_overview_concepts.adoc#gravitee-concepts-consumer, API Consumers>> can use it to search for, view, try out and subscribe to a published API.
 They can also use it to manage their <<apim_overview_concepts.adoc#gravitee-concepts-application, applications>>.

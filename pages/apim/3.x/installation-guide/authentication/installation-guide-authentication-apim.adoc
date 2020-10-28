@@ -12,7 +12,7 @@
 This page describes how to configure APIM to allow users to connect using an APIM data source.
 This is required when you want to allow user registration.
 
-You define new users in APIM Management.
+You define new users in APIM Console.
 
 NOTE: Passwords are encoded using the BCrypt strong hashing function.
 

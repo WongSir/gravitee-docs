@@ -6,7 +6,7 @@
 :page-keywords: Gravitee.io, API Platform, API Management, API Gateway, oauth2, openid, documentation, manual, guide, reference, api
 :page-layout: apim3x
 
-include::../partial/how-to-configure.adoc[leveloffset=+1]
+include::../../partial/how-to-configure.adoc[leveloffset=+1]
 
 == `gravitee.yml` configuration
 
@@ -66,7 +66,7 @@ jetty:
 WARNING: Truststore and keystore defined within the `jetty` section are only used to secure access to APIM API. These are not
 used by HTTP client calls for any other purpose (such as Fetch and DCR).
 
-== Configure the Management and Portal APIs
+=== Configure the Management and Portal APIs
 You can configure APIM API to start only the Management or Portal API. You can also change the API endpoints from their default values of `/management` and `/portal`.
 
 [source,yaml]
@@ -274,14 +274,14 @@ This is an example template:
 
 === Configure user options
 
-You can customize various user options:
+You can configure various user options:
 
-user.login.defaultApplication:: boolean (default: true) - Create a new application for every new users.
-user.creation.token.expire-after:: number (default: 86400) - Number of seconds before the user registration token expired.
-user.reference.secret:: 32 characters (default: s3cR3t4grAv1t33.1Ous3D4R3f3r3nc3) - CHANGE IT! secret used to generate a unique anonymous reference to a user.
-user.anonymize-on-delete:enabled:: boolean (default: false) - If true, the users firstname, lastname and email are anonymized when a user is deleted.
+user.login.defaultApplication:: boolean (default: true) -- creates a new application for all new users
+user.creation.token.expire-after:: number (default: 86400) -- number of seconds before the user registration token expires
+user.reference.secret:: 32 characters (default: s3cR3t4grAv1t33.1Ous3D4R3f3r3nc3) -- secret used to generate a unique anonymous reference to a user; *You must change this value*
+user.anonymize-on-delete:enabled:: boolean (default: false) - If true, the user *firstname*, *lastname* and *email* are anonymized when a user is deleted
 
-== Gateway
+=== Configure Gateway
 
 The field `unknown-expire-after` specifies the duration of visibility (in seconds) of a gateway with the state unknown (default value: 7 days).
 
@@ -291,8 +291,7 @@ gateway:
   unknown-expire-after: 604800
 ----
 
-== Default configuration
-
+=== Default configuration
 
 You can configure various default properties of APIM API in your `gravitee.yml` file.
 

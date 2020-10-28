@@ -11,7 +11,7 @@ As described in the link:/apim/3.x/apim_overview_architecture.html[architecture 
 
 * link:/apim/3.x/apim_installguide_gateway_install_zip.html[APIM Gateway]
 * link:/apim/3.x/apim_installguide_rest_apis_install_zip.html[APIM API]
-* link:/apim/3.x/apim_installguide_management_ui_install_zip.html[APIM Management]
+* link:/apim/3.x/apim_installguide_management_ui_install_zip.html[APIM Console]
 * link:/apim/3.x/apim_installguide_portal_ui_install_zip.html[APIM Portal]
 
 The following sections explain how to prepare, install and configure your APIM environment.

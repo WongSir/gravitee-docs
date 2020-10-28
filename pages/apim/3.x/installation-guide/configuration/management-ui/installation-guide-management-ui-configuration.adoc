@@ -1,5 +1,5 @@
 [[gravitee-installation-management-ui-configuration]]
-= Configure APIM Management
+= Configure APIM Console
 :page-sidebar: apim_3_x_sidebar
 :page-permalink: apim/3.x/apim_installguide_management_ui_configuration.html
 :page-folder: apim/installation-guide/management-ui
@@ -8,7 +8,7 @@
 :page-layout: apim3x
 
 == Overview
-There are 2 ways to configure APIM Management:
+There are 2 ways to configure APIM Console:
 
  - with a file named `constants.json`
  - with the values stored in the Management repository
@@ -24,7 +24,7 @@ The only mandatory value in the `constants.json` file is`:
 }
 ----
 
-It describes where the APIM API Management endpoint is, and must be set so APIM Management can send requests to it.
+It describes where the APIM API Management endpoint is, and must be set so APIM Console can send requests to it.
 
 == Default configuration
 
@@ -35,7 +35,7 @@ include::https://raw.githubusercontent.com/gravitee-io/gravitee-management-webui
 
 == Endpoints
 
-The following endpoint retrieves the APIM Management configuration stored in the Management repository:
+The following endpoint retrieves the APIM Console configuration stored in the Management repository:
 `GET /management/organizations/DEFAULT/environments/DEFAULT/portal`
 
 To following endpoint updates the configuration:
@@ -128,7 +128,7 @@ You can change the logo and the loader, by changing the following value in `cons
 
 [NOTE]
 ====
-These parameters can be modified in APIM Management with *Settings > Management > Theme*.
+These parameters can be modified in APIM Console with *Settings > Management > Theme*.
 
 image::apim/3.x/installation/management-ui/graviteeio-installation-management-ui-settings.png[]
 
