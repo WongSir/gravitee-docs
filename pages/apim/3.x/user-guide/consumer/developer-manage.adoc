@@ -4,12 +4,14 @@
 :page-folder: apim/user-guide/consumer
 :page-layout: apim3x
 
-Gravitee.io allows user to manage his or her applications from the portal and the console.
 
-== What is an application ?
+== What is an application?
 
-Consumers who want to use APIs need to register an application that will let API publishers to control and regulate access to their APIs.
-Typically application can be a web application, a native application, bash/job applications and so on which want to access data.
+Consumers who want to use APIs need to register an application that will allow API publishers to control and regulate access to their APIs.
+Typical applications are web applications, native applications or bash/job applications which access data.
+
+You can manage applications in both APIM Console and APIM Portal.
+
 
 == Prerequisites
 
@@ -49,11 +51,9 @@ image::apim/3.x/api-consumer-guide/developer-manage/graviteeio-create-app-2.png[
 
 image::apim/3.x/api-consumer-guide/developer-manage/graviteeio-create-app-3.png[]
 
-[start=10]
-. `OPTIONAL` You can search for an API and ask for a subscription (see link:/apim/3.x/apim_quickstart_consume.html[QuickStart > Consume an API])
-. Click `NEXT`
-. You can check your Application information in this summary. When you are ready, click `CREATE THE APP`
-
+. (Optional) Search for an API and request a subscription (see link:/apim/3.x/apim_quickstart_consume_ui.html[Consume an API with APIM Portal]) in the Quick Start Guide. Click *NEXT*.
+. Check your application information in the summary, then click *CREATE THE APP*.
++
 image::apim/3.x/api-consumer-guide/developer-manage/graviteeio-create-app-4.png[]
 
 NOTE:  If the selected plan requires the acceptance of general conditions, these will be displayed on the right.

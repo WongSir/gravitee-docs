@@ -5,7 +5,11 @@
 :page-layout: apim3x
 Here you will find how to configure Gravitee.io to allow users to connect using https://gravitee.io/[Gravitee.io Access Management].
 
-NOTE: For this guide, Gravitee.io AM 2.x (>= 2.0.4) is used.
+== Overview
+
+This page explains how to configure authentication in the Gravitee.io Access Management product.
+
+NOTE: For this guide AM 2.x (2.0.4 or above) is used.
 
 == Create a client
 

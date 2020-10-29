@@ -25,7 +25,7 @@ The table below lists the different types of plugins you can use with APIM, with
 |===
 
 [[gravitee-plugins-idp]]
-== Identity providers
+=== Identity providers
 An *identity provider* brokers trust with external user providers, to authenticate and obtain information about your end users.
 
 Out-of-the-box identity providers are:
@@ -36,7 +36,7 @@ Out-of-the-box identity providers are:
 * SAML 2.0 IdP
 
 [[gravitee-plugins-policies]]
-== Policies
+=== Policies
 A *policy* modifies the behavior of a request or response handled by AM Gatewy. It can be chained by a request policy chain or a response policy chain using a logical order.
 Policies are used by extension points to guarantee a given business rule is fulfilled during request processing.
 
@@ -45,7 +45,7 @@ An example of a policy is:
 * Call external web services during Login Flow (HTTP Callout policy)
 
 [[gravitee-plugins-reporters]]
-== Reporters
+=== Reporters
 
 A *reporter* is used by an AM API or AM Management instance to report many types of event:
 
@@ -57,7 +57,7 @@ Out-of-the-box reporters are:
 * MongoDB Reporter
 
 [[gravitee-plugins-repositories]]
-== Repositories
+=== Repositories
 A *repository* is a storage component for AM platform configuration.
 
 Out-of-the-box repositories are :
@@ -65,7 +65,7 @@ Out-of-the-box repositories are :
 * MongoDB Repository
 
 [[gravitee-plugins-alerts]]
-== Alerts
+=== Alerts
 
 An *alert* allows AM to send triggers or events to the Alert Engine which can be processed to send a notification using the configured plugin notifier.
 Configuring the notifier is the responsibility of the trigger.

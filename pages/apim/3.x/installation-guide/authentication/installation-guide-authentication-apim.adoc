@@ -1,5 +1,5 @@
 [[gravitee-installation-authentication-apim]]
-= APIM Repository
+= Configure APIM repository authentication
 :page-sidebar: apim_3_x_sidebar
 :page-permalink: apim/3.x/apim_installguide_authentication_apim.html
 :page-folder: apim/installation-guide/portal/authentication

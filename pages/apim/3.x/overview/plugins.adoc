@@ -7,8 +7,8 @@
 _Plugins_ are additional components that can be _plugged into_ the Gateway and / or the Management API.
 _Plugins_ can specialized component's behavior to exactly fit your needs and your technical constraints.
 
-They follow a given directory structure convention, look at the link:/apim/3.x/apim_devguide_plugins.html[Plugins Developer Guide]
-to have more information about it.
+Plugins are additional components that can be _plugged into_ <<apim_overview_components.adoc#gravitee-components-gateway, APIM Gateway>> or <<apim_overview_components.adoc#gravitee-components-rest-api, APIM API>>.
+They can customize the component's behavior to exactly fit your needs and technical constraints.
 
 When using Gravitee.io, you must be face to multiple types of _plugins_, in particular:
 
@@ -27,7 +27,15 @@ When using Gravitee.io, you must be face to multiple types of _plugins_, in part
 |===
 
 [[gravitee-plugins-idp]]
-== Identity Providers
+=== Identity Providers
+An *identity provider* brokers trust with external user providers, to authenticate and obtain information about your end users.
+
+Out-of-the-box identity providers are:
+
+* MongoDB
+* In-memory
+* LDAP / Active Directory
+* OpenID Connect IdP (Azure AD, Google)
 
 [[gravitee-plugins-fetchers]]
 == Fetchers

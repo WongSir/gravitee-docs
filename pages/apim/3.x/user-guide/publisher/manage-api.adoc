@@ -12,16 +12,16 @@ This section describes how to manage and configure your APIs, including:
 - Performing technical configuration (endpoint, load-balancing, health-check)
 - Providing documentation to developers
 
-The link:/apim/3.x/apim_quickstart_overview.html[Quick Start Guide] gives you a quick introduction to creating a new API from scratch.
+The link:/apim/3.x/apim_quickstart_publish.html[Quick Start Guide] gives you a quick introduction to creating a new API from scratch.
 
-If you click the *+* button at the bottom of the API page, you can see that there are other ways you can create an API in APIM:
+If you click the plus icon image:apim/3.x/icons/plus-icon.png[] at the bottom of the API page, you can see that there are other ways you can create an API in APIM:
 
 image::apim/3.x/api-publisher-guide/manage-apis/graviteeio-create-api-options-1.png[Create API]
 
 .Create API Options
 image::apim/3.x/api-publisher-guide/manage-apis/graviteeio-create-api-options-2.png[Create API Options, 300]
 
-The following sections explain the different ways to create an API using APIM Management.
+The following sections explain the different ways to create an API using APIM Console.
 
 == Create an API from scratch
 When you create an API from scratch, you need to configure it correctly (name, version,

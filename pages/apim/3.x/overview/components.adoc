@@ -20,10 +20,10 @@ image::apim/3.x/overview/components/graviteeio-gateway-internal.png[Gravitee.io 
 image::apim/3.x/overview/components/graviteeio-gateway-architecture.png[Gravitee.io - Gateway Architecture]
 
 [[gravitee-components-rest-api]]
-== Rest APIs (Management & Portal)
-Two restful APIs providing a bunch of services to manage and configure the <<gravitee-components-mgmt-ui, Gravitee.io Management UI>> and the <<gravitee-components-portal-ui, Gravitee.io Portal UI>>.
-All exposed services are constraint by authentication and authorization rules.
-You can find more information by having a look at the link:/apim/3.x/apim_installguide_rest_apis_documentation.html[Rest APIs > Documentation] section.
+== APIM API
+This RESTful API exposes services to manage and configure the <<gravitee-components-mgmt-ui, APIM Console>> and <<gravitee-components-portal-ui, APIM Portal>> web UIs.
+All exposed services are restricted by authentication and authorization rules.
+You can find more information in the link:/apim/3.x/apim_installguide_rest_apis_documentation.html[API Reference] section.
 
 [[gravitee-components-mgmt-ui]]
 == APIM Console
