@@ -69,7 +69,7 @@ sudo systemctl start mongod
 
 [source,bash,subs="attributes"]
 ----
-curl -L https://bit.ly/install-apim-3x | bash
+curl -L https://bit.ly/install-am-3x | bash
 ----
 
 == Running Gravitee.io Access Management with `systemd`

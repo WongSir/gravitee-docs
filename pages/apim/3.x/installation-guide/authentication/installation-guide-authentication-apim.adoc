@@ -7,8 +7,7 @@
 :page-keywords: Gravitee.io, API Platform, API Management, API Gateway, oauth2, openid, documentation, manual, guide, reference, api
 :page-layout: apim3x
 
-Here you will find how to configure Gravitee.io to allow users to connect using the Gravitee.io APIM datasource.
-This is needed when you want to allow users registration.
+== Overview
 
 This page describes how to configure APIM to allow users to connect using an APIM data source.
 This is required when you want to allow user registration.
@@ -17,9 +16,7 @@ You define new users in APIM Console.
 
 NOTE: Passwords are encoded using the BCrypt strong hashing function.
 
-To active this provider, you just have to declare it.
-Nothing more.
-All datasource information are get from the management repository configuration.
+To activate this provider, all you need to do is declare it. All data source information is then retrieved from the Management Repository configuration.
 
 [source,yaml]
 ----
