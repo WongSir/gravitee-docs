@@ -18,12 +18,12 @@ Each plugin follows the following common structure:
 ├── README.md
 └── src
     ├── assembly
-    │   └── <plugin>-assembly.xml
+    │   └── <plugin>-assembly.xml
     ├── main
-    │   ├── java
-    │   │   └── <main java files>
-    │   └── resources
-    │       └── plugin.properties
+    │   ├── java
+    │   │   └── <main java files>
+    │   └── resources
+    │       └── plugin.properties
     └── test
         └── java
             └── <test java files>
@@ -79,18 +79,18 @@ The different files are as follows:
 [discrete]
 ==== <main Jar File>.jar
 
-Each _plugin_ has its main Jar file containing the business behavior *plus* the <<gravitee-dev-guide-plugins-descriptor, _plugin_ descriptor file>>.
+Each plugin has its main Jar file containing the business behavior *plus* the <<gravitee-dev-guide-plugins-descriptor, plugin descriptor file>>.
 
 [discrete]
 ==== lib/
 
-This directory contains all the _plugin_'s external dependencies (non provided-scope Maven dependencies).
+This directory contains all the plugin's external dependencies (non provided-scope Maven dependencies).
 
 [discrete]
 [[gravitee-dev-guide-plugins-descriptor]]
 === plugin.properties
 
-The plugin.properties file is the descriptor of the _plugin_. It acts as the _ID Card_ of the _plugin_ and will be read by _gateway_ during the _plugin_ loading process.
+The `plugin.properties` file is the descriptor of the plugin. It acts as the _ID Card_ of the plugin and will be read by APIM Gateway during the plugin loading process.
 
 Hereafter parameters included into the descriptor:
 
