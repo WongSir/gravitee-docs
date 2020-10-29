@@ -4,12 +4,12 @@
 :page-folder: apim/user-guide/consumer
 :page-layout: apim3x
 
-== What is an application ?
+== What is an application?
 
 Consumers who want to use APIs need to register an application that will allow API publishers to control and regulate access to their APIs.
 An application can be any application needing to access data, such as a web application, native application or a bash/job application.
 
-You can manage applications in both APIM Management and APIM Portal.
+You can manage applications in both APIM Console and APIM Portal.
 
 == Prerequisites
 
@@ -45,7 +45,7 @@ image::apim/3.x/api-consumer-guide/developer-manage/graviteeio-create-app-2.png[
 +
 image::apim/3.x/api-consumer-guide/developer-manage/graviteeio-create-app-3.png[]
 
-. (Optional) Search for an API and request a subscription (see link:/apim/3.x/apim_quickstart_consume.html[Quick Start > Consume an API]). Click *NEXT*.
+. (Optional) Search for an API and request a subscription (see link:/apim/3.x/apim_quickstart_consume_ui.html[Consume an API with APIM Portal]) in the Quick Start Guide. Click *NEXT*.
 . Check your application information in the summary, then click *CREATE THE APP*.
 +
 image::apim/3.x/api-consumer-guide/developer-manage/graviteeio-create-app-4.png[]

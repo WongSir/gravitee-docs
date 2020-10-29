@@ -110,9 +110,9 @@ $ docker run \
 
 === graviteeio/apim-management-ui
 
-The APIM Management image provides a set of environment variables which you can use to tune your container.
+The APIM Console image provides a set of environment variables which you can use to tune your container.
 
-APIM Management needs APIM API to run, so you need to update `MGMT_API_URL` to specify where `management-api` is running.
+APIM Console needs APIM API to run, so you need to update `MGMT_API_URL` to specify where `management-api` is running.
 
 ==== Run the image
 [source,shell]

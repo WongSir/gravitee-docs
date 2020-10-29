@@ -8,6 +8,7 @@ Here you will find how to configure Gravitee.io to allow users to connect using 
 == Overview
 
 This page explains how to configure authentication in the Gravitee.io Access Management product.
+
 NOTE: For this guide AM 2.x (2.0.4 or above) is used.
 
 == Create a client

@@ -54,13 +54,13 @@ cp ../graviteeio-full-{{ site.products.apim._3x.version }}/graviteeio-full-{{ si
 
 Before starting APIM Gateway, you need to start MongoDB and ElasticSearch.
 
-* MongoDB
+MongoDB:
 
 ```
 docker run -p 27017:27017 --name local-mongo -d mongo:3
 ```
 
-* Elastic
+ElasticSearch:
 
 ```
 docker run -d --name local-es7 -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.7.0
@@ -74,8 +74,8 @@ Create a new Run configuration in IntelliJ:
 
 . Click *Run -> Edit configurations -> ✚ -> Application*.
 . Name it as required.
-. Choose "Use classpath of module": gravitee-gateway-standalone-container.
-. Select "Main class": "io.gravitee.gateway.standalone.GatewayContainer".
+. Choose *Use classpath of module:gravitee-gateway-standalone-container*.
+. Select *Main class*:*io.gravitee.gateway.standalone.GatewayContainer*.
 . In the VM options, add the following (change the path to point to your project):
 +
 ```
@@ -86,8 +86,8 @@ Create a new Run configuration in IntelliJ:
 
 . Create a new Run configuration in IntelliJ: click *Run -> Edit configurations -> ✚ -> Application*.
 . Name it as required.
-. Choose "Use classpath of module": gravitee-rest-api-standalone-container.
-. Select "Main class": "io.gravitee.rest.api.standalone.GraviteeApisContainer".
+. Choose *Use classpath of module:gravitee-rest-api-standalone-container*.
+. Select *Main class:io.gravitee.rest.api.standalone.GraviteeApisContainer*.
 . In the VM options, add the following (change the path to point to your project):
 +
 ```
@@ -102,15 +102,15 @@ Create a new Run configuration in IntelliJ:
 . Run `npm install` from the 'gravitee-management-webui' directory.
 . Run `npm run serve` to start the UI.
 
-===== IntelliJ Configuration
+===== IntelliJ configuration
 
 . Create a new Run configuration in IntelliJ: click *Run -> Edit configurations -> ✚ -> npm*.
 . Name it as required.
-. Choose "package.json": #path_to_project_folder#/gravitee-management-webui/package.json.
-. Select "Command": "run".
-. Select "Script": "serve".
+. Choose *package.json:{path_to_project_folder}/gravitee-management-webui/package.json*.
+. Select *Command: run*.
+. Select *Script: serve*.
 
-To `npm install`, you can duplicate this configuration and choose "Command": "Install".
+To `npm install`, you can duplicate this configuration and choose *Command > Install*.
 
 ==== APIM Portal
 
@@ -123,8 +123,8 @@ To `npm install`, you can duplicate this configuration and choose "Command": "In
 
 . Create a new Run configuration in IntelliJ: click *Run -> Edit configurations -> ✚ -> npm*.
 . Name it as required.
-. Choose "package.json": #path_to_project_folder#/gravitee-portal-webui/package.json.
-. Select "Command": "run".
-. Select "Script": "serve".
+. Choose *package.json:{path_to_project_folder}/gravitee-portal-webui/package.json*.
+. Select *Command: run*.
+. Select *Script: serve*.
 
-To `npm install`, you can duplicate this configuration and choose "Command": "Install".
+To `npm install`, you can duplicate this configuration and choose *Command > Install*.

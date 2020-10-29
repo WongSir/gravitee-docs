@@ -13,7 +13,7 @@ solution which would integrate seamlessly with their infrastructure and perfectl
 
 APIM has been developed and designed to be fully extensible using its internal plugin system, so you can: define your own policy, develop your own reporting system, and so on.
 
-Finally, all APIM components (including <<apim_overview_components.adoc#gravitee-components-gateway, API Gateway>> and <<apim_overview_components.adoc#gravitee-components-rest-api, Management API>>) are really lightweight -- we
+Finally, all APIM components (including <<apim_overview_components.adoc#gravitee-components-gateway, API Gateway>> and <<apim_overview_components.adoc#gravitee-components-rest-api, APIM API>>) are really lightweight -- we
 took an aggressive approach to CPU and memory management. This makes life much easier for you when it comes to high availability
 with our blazing-fast component start-up times (it typically takes less than 5 seconds for the API Gateway
 to be accessible to consumers, subject to the number of APIs being deployed).

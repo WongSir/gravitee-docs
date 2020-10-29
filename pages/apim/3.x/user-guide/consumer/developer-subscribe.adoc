@@ -18,7 +18,7 @@ NOTE: Consumers must have a link:/apim/3.x/apim_consumerguide_create_account.htm
 Consumers wanting to use APIs need to register an application so that API publishers can control and regulate access to their APIs.
 Applications can be web applications, native application, bash/job applications and other applications needing to access sensitive data.
 
-See link:/apim/3.x/apim_consumerguide_manage_applications.html#create_an_application[how to create your first application] for more information.
+See link:/apim/3.x/apim_consumerguide_manage_applications.html#create_an_application[Create an application] for more information.
 
 === Plan security type
 

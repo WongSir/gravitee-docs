@@ -9,7 +9,7 @@
 
 == Overview
 
-APIM natively support multiple types of authentication for the APIM Portal:
+APIM natively support multiple types of authentication for accessing APIM Portal:
 
 * Authentication providers (such as in-memory, LDAP and databases)
 * Social providers (such as GitHub and Google)
@@ -38,15 +38,3 @@ security:
 ----
 
 NOTE: The authentication process loops through the three providers to attempt user authentication.
-
-== How to configure
-
-You can find documentation on configuring:
-
-* link:/apim/3.x/apim_installguide_authentication_inmemory.html[in-memory]
-* link:/apim/3.x/apim_installguide_authentication_ldap.html[LDAP / Active Directory]
-* link:/apim/3.x/apim_installguide_authentication_apim.html[Gravitee.io APIM Repository]
-* link:/apim/3.x/apim_installguide_authentication_graviteeam.html[Gravitee.io Access Management]
-* link:/apim/3.x/apim_installguide_authentication_github.html[GitHub]
-* link:/apim/3.x/apim_installguide_authentication_google.html[Google]
-* link:/apim/3.x/apim_installguide_authentication_keycloak.html[Keycloak / generic OAuth2 server]
