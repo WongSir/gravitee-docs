@@ -49,6 +49,7 @@ An identity provider:
 == Extension point
 
 An extension point:
+
 * Extends the behavior of the AM server by executing policies on selected stages
 * Customizes the authentication and authorization flow by:
 ** Adding extra actions after the login form process

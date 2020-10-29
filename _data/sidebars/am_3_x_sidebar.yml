@@ -34,7 +34,7 @@ entries:
     - title: Register a new application
       output: web
       url: /am/current/am_quickstart_register_app.html
-    - title: Authenticate users with Identity Provider
+    - title: Authenticate users with an identity provider
       output: web
       url: /am/current/am_quickstart_authenticate_users.html
     - title: Get user profile information

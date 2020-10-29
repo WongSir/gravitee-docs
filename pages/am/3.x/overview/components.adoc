@@ -17,5 +17,5 @@ It acts as a trust broker with your identity providers and provides an authentic
 This RESTful API exposes services to manage and configure the entire platform. All exposed
 services are restricted by authentication and authorization rules. You can find more information in the link:am/current/am_devguide_management_api_documentation.html[Management API > Overview] section.
 
-== AM Management
+== AM Console
 This web UI acts as a graphical interface to the AM API functionality.
