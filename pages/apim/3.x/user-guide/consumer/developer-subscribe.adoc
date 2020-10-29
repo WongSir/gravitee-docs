@@ -60,12 +60,7 @@ image::apim/3.x/api-consumer-guide/developer-subscribe/subscribe-confirmation-be
 ====
 If there are general conditions for the selected plan, you have to accept them before validating the subscription.
 
-.Waiting for the validation
-image::apim/3.x/api-consumer-guide/developer-subscribe/subscribe-general-conditions-acceptance.png[Gravitee.io - General Conditions]
-====
-
-[start=10]
-. If validation is automatic, you will get this message:
+See link:/apim/3.x/apim_consumerguide_manage_applications.html#create_an_application[Create an application] for more information.
 
 .Validation of the subscription
 image::apim/3.x/api-consumer-guide/developer-subscribe/subscribe-validation.png[Gravitee.io - subscription validation]

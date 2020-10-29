@@ -4,7 +4,6 @@
 :page-folder: apim/user-guide/consumer
 :page-layout: apim3x
 
-
 == What is an application?
 
 Consumers who want to use APIs need to register an application that will allow API publishers to control and regulate access to their APIs.

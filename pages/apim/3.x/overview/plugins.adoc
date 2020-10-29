@@ -6,7 +6,7 @@
 
 == Overview
 
-Plugins are additional components that can be _plugged into_ <<apim_overview_components.adoc#gravitee-components-gateway, API Gateway>> or <<apim_overview_components.adoc#gravitee-components-rest-api, APIM API>>.
+Plugins are additional components that can be _plugged into_ <<apim_overview_components.adoc#gravitee-components-gateway, APIM Gateway>> or <<apim_overview_components.adoc#gravitee-components-rest-api, APIM API>>.
 They can customize the component's behavior to exactly fit your needs and technical constraints.
 
 For more information about plugins, including how to deploy them and details of their directory structure, see the link:/apim/3.x/apim_devguide_plugins.html[Plugins Developer Guide].
@@ -41,6 +41,14 @@ APIM Gateway
 
 [[gravitee-plugins-idp]]
 === Identity Providers
+An *identity provider* brokers trust with external user providers, to authenticate and obtain information about your end users.
+
+Out-of-the-box identity providers are:
+
+* MongoDB
+* In-memory
+* LDAP / Active Directory
+* OpenID Connect IdP (Azure AD, Google)
 
 [[gravitee-plugins-fetchers]]
 === Fetchers
